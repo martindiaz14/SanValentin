@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia de San Valentin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="flex flex-col items-center justify-center min-h-screen bg-pink-50 overflow-hidden">
+
+    <div class="mb-8">
+        <img id="imagenDinamica" src="/imgs/Feli/Awww 🥰.jfif" alt="Valentine"
+            class="rounded-lg shadow-lg max-w-[250px]">
+    </div>
+
+    <div class="text-center mb-10">
+        <h1 class="text-3xl font-bold text-red-600" id="frase">¿Quieres ser mi Valentine?</h1>
+    </div>
+
+    <div id="contenedorGatitos" class="fixed inset-0 pointer-events-none z-0"></div>
+
+    <div id="cartaA4"
+        class="hidden fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4 overflow-y-auto">
+        <div
+            class="bg-white w-[210mm] min-h-[297mm] shadow-2xl p-[20mm] relative mx-auto my-10 text-gray-800 border border-gray-200">
+            <div id="textoCarta" class="font-serif text-lg leading-relaxed whitespace-pre-wrap">
+         Feliz día para nuestra relación, mi vida, que poco a poco seguimos construyendo, y más que un placer es ser parte de este proyecto. Adoro la emoción que le ponemos a estas fechas especiales. Sé que no es mucho lo que podemos aportar en cuestión de regalos, pero siempre nos las arreglamos para hacerlo un día único.
+Ya se nos va a dar; es cuestión de tiempo para que ambos tengamos nuestro trabajo establecido y podamos hacer los planes de los que tanto hablamos. De cualquier manera, la fecha la hacemos especial nosotros, con nuestras ganas, ideas y amor.
+Mientras tanto sigamos saliendo juntos, comiendo helado, jugando al clash, mirar series, besandonos, comiendo nuestra pizza :3, y haciendo todo lo que nos haga mas unidos. 
+Es nuestra 2da fecha de San Valentin como novios pero la 3ra que pasamos juntos.Te acordas de nuestro primer san valentin?, esa fecha fue especial para mi, porque aunque no te pedi que seas mi novia, te deje mis intenciones claras con vos, Amarte hasta donde me des la posibilidad. 
+Te amo, Giovanna. Sos las ganas de salir adelante que necesitaba, las ganas de desvivirme si hace falta por alguien, las ganas de tener un propósito más allá del dinero, las ganas de tener una compañera de vida, y quiero que seas vos.
+Espero que esta carta te guste. Te la escribe con mucho amor tu novio,
+Martín ❤️
+
+
+            </div>
+
+            <div class="absolute bottom-10 right-10 text-red-500 font-bold">❤</div>
+        </div>
+    </div>
+
+    <div class="flex flex-row items-center justify-center gap-6 w-full relative h-20">
+        <button id="btnSi"
+            class="bg-red-600 text-white font-bold py-3 px-10 rounded-full shadow-lg z-10 active:scale-95 transition-transform">
+            Sí
+        </button>
+
+        <button id="btnNo"
+            class="bg-gray-500 text-white font-bold py-3 px-10 rounded-full shadow-md transition-all duration-200 touch-none">
+            No
+        </button>
+        
+        
+        <button id="btnMostrar"
+            class="hidden bg-red-500 text-white font-bold py-3 px-10 rounded-full shadow-md transition-all duration-200 touch-none">
+            Ver Carta
+        </button>
+    </div>
+
+    <script type="module" src="/index.js"></script>
+</body>
+
+</html>
