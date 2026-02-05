@@ -8,10 +8,12 @@ const contenedorGatitos = document.querySelector("#contenedorGatitos");
 
 // 1. Especifica aquí tus fotos (asegúrate de que los nombres sean exactos)
 const fotosNo = [
-    "/imgs/Sad/descarga.jfif",
+    "imgs/Sad/descarga.jfif",
     "imgs/Sad/gatinho tristinho.jfif",
     "imgs/Sad/gatito triste _(.jfif",
     "imgs/Sad/gatito triste (1).jfif",
+    "imgs/Sad/gatito triste (2).jfif",
+    "imgs/Sad/gatito triste (3).jfif",
     "imgs/Sad/gatito triste 💔.jfif",
     "imgs/Sad/Gatito triste.jfif",
     "imgs/Sad/gatito_.jfif",
