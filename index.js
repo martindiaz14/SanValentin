@@ -15,7 +15,6 @@ const fotosNo = [
     "imgs/Sad/descarga (1).jfif",
     "imgs/Sad/descarga (2).jfif",
     "imgs/Sad/descarga (3).jfif",
-    "imgs/Sad/gatito triste (3).jfif",
     "imgs/Sad/gatito triste 💔.jfif",
     "imgs/Sad/Gatito triste.jfif",
     "imgs/Sad/gatito_.jfif",
